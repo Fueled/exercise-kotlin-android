@@ -4,12 +4,12 @@ package resources
 object Data {
 
     /**
-     * Returns the content of `posts.json` parsed to the type [T] using Gson.
+     * Returns the content of `model.posts.json` parsed to the type [T] using Gson.
      */
     inline fun <reified T> getPosts(): T = Parser.getMappedData("posts.json")
 
     /**
-     * Returns the content of `comments.json` parsed to the type [T] using Gson.
+     * Returns the content of `model.comments.json` parsed to the type [T] using Gson.
      */
     inline fun <reified T> getComments(): T = Parser.getMappedData("comments.json")
 

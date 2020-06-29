@@ -84,10 +84,9 @@ private fun getTopThreeUsers(users: List<User>, posts: List<Post>, comments: Lis
         // adding the model UserScore to the list
         users_score.add(UserScore(user.id, user.name, avg))
 
-        // sorting the list in descending order of score
-        users_score.sortByDescending { it.score  }
     }
-
+    // sorting the list in descending order of score
+     users_score.sortByDescending { it.score  }
     println("TOP 3 USERS ARE : ")
     // printing top three users from the users_score list
     println("${users_score.take(3)}")

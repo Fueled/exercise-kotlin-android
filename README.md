@@ -8,7 +8,7 @@ A blogging platform stores the following information that is available through s
 ### Objective
 The organization needs to identify the 3 most engaging bloggers on the platform.
 - Restrict yourself to use Kotlin & its standard library only.
-- Output the top 3 users who have the highest average number of comments per post. This metric would essentially be the ratio of the total comments on their post to the number of posts. 
+- Output the top 3 users who have the highest average number of comments on their posts. This metric would essentially be the ratio of the total comments on their post to the total number of posts. 
 - The format of the output should be as follows:
  &nbsp;&nbsp;&nbsp; `[name]` - `[id]`, Score: `[average_comments]`
 

@@ -19,7 +19,7 @@ Instead of connecting to a remote API, we are providing this data in form of JSO
 ### What we're looking to evaluate
 1. How you choose to model your data
 2. How you transform the provided JSON data to your data model
-3. How you use your models to calculate this average value
+3. How you use your models to efficiently calculate this average value
 4. How you use this data point to sort the users
 
 ### Instructions
